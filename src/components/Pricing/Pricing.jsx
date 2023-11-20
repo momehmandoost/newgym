@@ -15,7 +15,7 @@ function Pricing() {
           <img src={BgText} className="left-0 absolute" alt="bg_img" />
           {/* title div -- */}
           <div className="flex flex-col text-center relative items-center">
-            <p className="text-white relative z-10 text-[15px] uppercase font-bold mb-8">
+            <p className="text-black relative z-10 text-[15px] uppercase font-bold mb-8">
               PRICING CHART
             </p>
             <img

@@ -1,14 +1,14 @@
 import Footer from "../components/Footer/Footer";
 import GirlRunning from "../images/who-we-are/girl-run.png";
 import GirlRedBg from "../images/who-we-are/girl-redbg.svg";
-import GirlText from "../images/who-we-are/girl-side-text.png";
+import GirlText from "../images/who-we-are/girl-side-text.svg";
 import GirlWind from "../images/who-we-are/wind.png";
 import TitleRed from "../images/who-we-are/title-bg.svg";
 import MainButton from "../components/MainButton";
 import Img3 from "../images/AboutPage/3.jpg";
 import Img4 from "../images/AboutPage/4.jpg";
-import Target from "../images/AboutPage/target.png";
-import Mountain from "../images/AboutPage/mountain.png";
+import Target from "../images/AboutPage/target.svg";
+import Mountain from "../images/AboutPage/mountain.svg";
 
 function About() {
   return (
@@ -23,7 +23,7 @@ function About() {
           <div className="grid grid-cols-[1fr_1fr] h-[60rem] md1000:grid-cols-1">
             {/* title div -- */}
             <div className="flex flex-col !text-left relative items-right justify-center md1000:items-center md1000:!text-center">
-              <p className="text-white relative z-10 text-[15px] uppercase font-bold mb-8 ml-20 md1000:ml-3 ">
+              <p className="text-black relative z-10 text-[15px] uppercase font-bold mb-8 ml-20 md1000:ml-3 ">
                 who we are
               </p>
               <img
@@ -42,11 +42,11 @@ function About() {
                 that helps you reach your specific goals.
               </p>
               <MainButton
-                color={`!text-white`}
-                bg={`bg-[#ff0336]`}
+                color={`!text-black`}
+                bg={`bg-[#FAFF00]`}
                 goTo="/contact"
                 text="contact us"
-                arrowColor={`!text-white`}
+                arrowColor={`!text-black`}
                 cN="pricing-cta blog-cta"
               />
             </div>

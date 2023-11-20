@@ -84,7 +84,7 @@ body {
 }
 
 .about-section {
-  background-image: url("../src/images/who-we-are/background.jpg");
+  background-color: black;
   object-fit: cover;
   background-size: cover;
   background-position: center center;
@@ -97,7 +97,7 @@ body {
 }
 
 .card-item-div:hover {
-  background-image: url("../src/images/who-we-are/info-card-bg.jpg");
+  background-image: url("../src/images/who-we-are/info-card-bg.svg");
   color: white;
 }
 
@@ -122,7 +122,7 @@ body {
   content: "";
   width: 20rem;
   height: 5.5rem;
-  border: 1px solid #ff0336;
+  border: 1px solid #faff00;
   position: absolute;
   top: -0px;
   left: 0px;
@@ -149,10 +149,9 @@ body {
 }
 
 .girl-text {
-  width: 17%;
   height: auto;
   top: 67.7%;
-  right: 84%;
+  right: 73%;
   transform: translate(50%, -50%);
   position: absolute;
 }
@@ -417,7 +416,8 @@ body {
 /* choose us */
 
 .choose-section {
-  background-image: url("../src/images/choose-us/choose-bg.jpg");
+  background: black;
+  -o-object-fit: cover;
   object-fit: cover;
   background-size: cover;
   background-position: center center;
@@ -429,7 +429,7 @@ body {
   content: "";
   height: 461px;
   width: 10px;
-  background-color: #ff0336;
+  background-color: #faff00;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(174deg);
@@ -441,7 +441,7 @@ body {
   content: "";
   height: 42%;
   width: 10px;
-  background-color: #ff0336;
+  background-color: #faff00;
   position: absolute;
   bottom: 0;
   left: -30px;
@@ -457,7 +457,7 @@ body {
 }
 
 .choose-cta:hover:after {
-  border: 2px solid #ff0336;
+  border: 2px solid #faff00;
 }
 
 /* trainers section */
@@ -483,7 +483,7 @@ body {
   content: "";
   width: 45px;
   height: 4px;
-  background-color: #ff0336;
+  background-color: #faff00;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -600,11 +600,6 @@ body {
 /* price section */
 
 .pricing-section {
-  background-image: url("../src/images/pricing/background.jpg");
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .pricing-cta {
@@ -613,11 +608,11 @@ body {
 }
 
 .pricing-cta::after {
-  border: 2px solid #ff03353b;
+  border: 2px solid #fff7033b;
 }
 
 .pricing-cta:hover:after {
-  border: 2px solid #ff0336;
+  border: 2px solid #faff00;
 }
 
 /* blog section */
@@ -643,11 +638,6 @@ body {
 
 /* login */
 .login-section {
-  background-image: url("../src/images/who-we-are/background.jpg");
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
@@ -780,7 +770,7 @@ body {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 80px;
-  background-color: #ff0336;
+  background-color: rgb(188, 192, 8);
   border: 1.5px solid #fff;
 }
 

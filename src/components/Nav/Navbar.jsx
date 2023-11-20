@@ -89,7 +89,7 @@ function Navbar() {
               >
                 <i
                   onClick={hamburgerMenu}
-                  className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer self-end"
+                  className="fa-solid fa-xmark text-[#FAFF00] text-[3.3rem] cursor-pointer self-end"
                 ></i>
 
                 {/* links */}
@@ -97,7 +97,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <a
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       href="/#home"
                     >
                       Home
@@ -106,7 +106,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <Link
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       to="/about"
                     >
                       About
@@ -115,7 +115,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <Link
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       to="/schedule/monday"
                     >
                       Schedule
@@ -124,7 +124,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <Link
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       to="/gallery/page-1"
                     >
                       Gallery
@@ -133,7 +133,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <Link
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       to="/blog"
                     >
                       Blog
@@ -142,7 +142,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <Link
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       to="/contact"
                     >
                       Contact
@@ -151,7 +151,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <Link
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       to="/pricing"
                     >
                       Pricing
@@ -160,7 +160,7 @@ function Navbar() {
                   <li onClick={hamburgerMenu}>
                     <Link
                       onClick={() => window.top(0, 0)}
-                      className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                      className="text-[2rem] font-medium hover:text-[#FAFF00] ease-in duration-200"
                       to="/classes"
                     >
                       Classes
@@ -183,7 +183,7 @@ function Navbar() {
                     <img src={LogoSide} alt="logo_img" className="w-[13rem]" />
                     <i
                       onClick={sideBar}
-                      className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer"
+                      className="fa-solid fa-xmark text-[#FAFF00] text-[3.3rem] cursor-pointer"
                     ></i>
                   </div>
                   {/* about us */}
@@ -235,16 +235,16 @@ function Navbar() {
                   {/* contact */}
                   <div className="flex flex-col gap-6">
                     <h3 className="text-[2rem] font-bold">Contact Info</h3>
-                    <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                      <i className="fa-solid fa-location-dot text-[#ff0336]"></i>
+                    <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#FAFF00] cursor-pointer ease-in duration-200">
+                      <i className="fa-solid fa-location-dot text-[#FAFF00]"></i>
                       &nbsp; 59 Street, House Newyork City
                     </p>
-                    <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                      <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp;
+                    <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#FAFF00] cursor-pointer ease-in duration-200">
+                      <i className="fa-solid fa-phone text-[#FAFF00]"></i>&nbsp;
                       +123-678800090
                     </p>
-                    <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                      <i className="fa-solid fa-envelope text-[#ff0336]"></i>
+                    <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#FAFF00] cursor-pointer ease-in duration-200">
+                      <i className="fa-solid fa-envelope text-[#FAFF00]"></i>
                       &nbsp; gymate@gymail.com
                     </p>
                   </div>
@@ -252,13 +252,13 @@ function Navbar() {
                   <div className="flex flex-col gap-6">
                     <h3 className="text-[2rem] font-bold">Follow Us</h3>
                     <div className="flex gap-5">
-                      <span className="bg-[#ff0336] rounded-full py-[12px] px-[17px] cursor-pointer">
+                      <span className="bg-[#FAFF00] rounded-full py-[12px] px-[17px] cursor-pointer">
                         <i className="fa-brands fa-facebook-f text-[2.2rem] text-white"></i>
                       </span>
-                      <span className="bg-[#ff0336] rounded-full py-[12px] px-[12px] cursor-pointer">
+                      <span className="bg-[#FAFF00] rounded-full py-[12px] px-[12px] cursor-pointer">
                         <i className="fa-brands fa-twitter text-[2.2rem] text-white"></i>
                       </span>
-                      <span className="bg-[#ff0336] rounded-full py-[10px] px-[13px] cursor-pointer">
+                      <span className="bg-[#FAFF00] rounded-full py-[10px] px-[13px] cursor-pointer">
                         <i className="fa-brands fa-instagram text-[2.2rem] text-white"></i>
                       </span>
                     </div>
@@ -270,17 +270,17 @@ function Navbar() {
             {/* hamburger */}
             <i
               onClick={hamburgerMenu}
-              className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
+              className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#FAFF00] ease-in duration-200"
             ></i>
             {/* account */}
             <Link onClick={goTop} to="/signup" title="signup_button">
-              <i className="fa-regular fa-user  text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"></i>
+              <i className="fa-regular fa-user  text-white text-4xl cursor-pointer hover:text-[#FAFF00] ease-in duration-200"></i>
             </Link>
             {/* sidebar */}
 
             <i
               onClick={sideBar}
-              className="fa-regular fa-chart-bar text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
+              className="fa-regular fa-chart-bar text-white text-4xl cursor-pointer hover:text-[#FAFF00] ease-in duration-200"
             ></i>
           </div>
           {/* spin box */}
@@ -293,7 +293,7 @@ function Navbar() {
               className="flex items-center "
             >
               <i
-                className={`fa-solid fa-plus bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${
+                className={`fa-solid fa-plus bg-[#FAFF00] text-black text-2xl py-3 px-4 rounded-md ${
                   spin ? "nav-btn-hover" : ""
                 }`}
               ></i>

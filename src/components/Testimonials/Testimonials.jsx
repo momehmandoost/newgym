@@ -15,7 +15,7 @@ function Testimonials() {
         <div className="container page-padding">
           {/* title */}
           <div className="text-center relative items-center w-full flex flex-col">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold -mb-[10.5rem]">
+            <p className="text-black relative z-10 text-[16px] uppercase font-bold -mb-[10.5rem]">
               Testimonials
             </p>
             <img
@@ -46,14 +46,14 @@ function Testimonials() {
                 <button
                   title="left"
                   style={{ transition: "all 0.2s" }}
-                  className="py-5 px-7 bg-white text-black text-2xl hover:bg-[#FF0336] hover:text-white"
+                  className="py-5 px-7 bg-white text-black text-2xl hover:bg-[#FAFF00] hover:text-black"
                 >
                   <i className="fa-solid fa-arrow-left"></i>
                 </button>
                 <button
                   title="right"
                   style={{ transition: "all 0.2s" }}
-                  className="py-5 px-7 bg-white text-black text-2xl hover:bg-[#FF0336] hover:text-white"
+                  className="py-5 px-7 bg-white text-black text-2xl hover:bg-[#FAFF00] hover:text-black"
                 >
                   <i className="fa-solid fa-arrow-right"></i>
                 </button>

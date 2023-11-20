@@ -1,11 +1,11 @@
 import AboutCarts from "./AboutCarts";
 import TitleRed from "../../images/who-we-are/title-bg.svg";
-import TrainersIcon from "../../images/who-we-are/weightlifter.png";
-import ModernIcon from "../../images/who-we-are/equpments.png";
-import LiftIcon from "../../images/who-we-are/gym.png";
+import TrainersIcon from "../../images/who-we-are/weightlifter.svg";
+import ModernIcon from "../../images/who-we-are/progresion.svg";
+import LiftIcon from "../../images/who-we-are/nutritions.svg";
 import GirlRunning from "../../images/who-we-are/girl-run.png";
 import GirlRedBg from "../../images/who-we-are/girl-redbg.svg";
-import GirlText from "../../images/who-we-are/girl-side-text.png";
+import GirlText from "../../images/who-we-are/girl-side-text.svg";
 import GirlWind from "../../images/who-we-are/wind.png";
 import MainButton from "../MainButton";
 
@@ -26,7 +26,7 @@ function About() {
           >
             {/* about text */}
             <div className="mt-[10.5rem] relative md1000:items-center md1000:flex md1000:flex-col md1000:text-center md1000:w-[full]">
-              <p className="text-white font-semibold text-[15px] relative uppercase z-10 pl-16 md1000:pl-0 mb-12">
+              <p className="text-black font-semibold text-[15px] relative uppercase z-10 pl-16 md1000:pl-0 mb-12">
                 who we are
               </p>
               <img
@@ -34,7 +34,7 @@ function About() {
                 alt="text_bg"
                 className="w-[31%] absolute -top-[6px] md1000:w-[22rem]"
               />
-              <h2 className="text-[35px] font-bold leading-tight mb-6 w-[60rem] min800:w-[100%]">
+              <h2 className="text-white text-[35px] font-bold leading-tight mb-6 w-[60rem] min800:w-[100%]">
                 Take Your Health And Body To Next Level
               </h2>
               <p className="text-[16px] text-[#646464] font-medium ">
@@ -50,7 +50,7 @@ function About() {
                     alt="icon_img"
                     className={`w-[5.4rem] mb-6 h-auto`}
                   />
-                  <h3 className="uppercase font-bold text-[20px] leading-snug">
+                  <h3 className="text-white uppercase font-bold text-[20px] leading-snug">
                     professional <br /> trainers
                   </h3>
                 </div>
@@ -61,7 +61,7 @@ function About() {
                     alt="icon_img"
                     className={`w-[5.4rem] mb-6 h-auto`}
                   />
-                  <h3 className="uppercase font-bold text-[20px] leading-snug">
+                  <h3 className="text-white uppercase font-bold text-[20px] leading-snug">
                     modern <br /> equipments
                   </h3>
                 </div>
@@ -72,7 +72,7 @@ function About() {
                     alt="icon_img"
                     className={`w-[5.4rem] mb-6 h-auto`}
                   />
-                  <h3 className="uppercase font-bold text-[20px] leading-snug">
+                  <h3 className="text-white uppercase font-bold text-[20px] leading-snug">
                     fancy gym <br />
                     machines
                   </h3>

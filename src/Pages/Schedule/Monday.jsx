@@ -8,49 +8,49 @@ function Monday() {
       <div className="flex flex-wrap gap-4 justify-center">
         <Link
           to="/schedule/monday"
-          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] bg-[#ff0336] ease-in duration-200 hover:shadow-2xl text-white "
+          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] bg-[#FAFF00] ease-in duration-200 hover:shadow-2xl text-black "
         >
           Monday
         </Link>
 
         <Link
           to="/schedule/tuesday"
-          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
+          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#FAFF00] ease-in duration-200 hover:shadow-2xl hover:text-black "
         >
           Tuesday
         </Link>
 
         <Link
           to="/schedule/wednesday"
-          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
+          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#FAFF00] ease-in duration-200 hover:shadow-2xl hover:text-black "
         >
           Wednesday
         </Link>
 
         <Link
           to="/schedule/thursday"
-          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
+          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#FAFF00] ease-in duration-200 hover:shadow-2xl hover:text-black "
         >
           Thursday
         </Link>
 
         <Link
           to="/schedule/friday"
-          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
+          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#FAFF00] ease-in duration-200 hover:shadow-2xl hover:text-black "
         >
           Friday
         </Link>
 
         <Link
           to="/schedule/saturday"
-          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
+          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#FAFF00] ease-in duration-200 hover:shadow-2xl hover:text-black "
         >
           Saturday
         </Link>
 
         <Link
           to="/schedule/sunday"
-          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white "
+          className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#FAFF00] ease-in duration-200 hover:shadow-2xl hover:text-black "
         >
           Sunday
         </Link>
@@ -89,7 +89,7 @@ function Monday() {
               <Link
                 onClick={() => window.top(0, 0)}
                 to="/contact"
-                className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200  "
+                className="text-black text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] hover:bg-[#FAFF00] ease-in duration-200  "
               >
                 Join Now
               </Link>
@@ -124,7 +124,7 @@ function Monday() {
               <Link
                 onClick={() => window.top(0, 0)}
                 to="/contact"
-                className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 "
+                className="text-black text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#FAFF00] ease-in duration-200 "
               >
                 Join Now
               </Link>
@@ -157,7 +157,7 @@ function Monday() {
               <Link
                 onClick={() => window.top(0, 0)}
                 to="/contact"
-                className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 "
+                className="text-black text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#FAFF00] ease-in duration-200 "
               >
                 Join Now
               </Link>
@@ -190,7 +190,7 @@ function Monday() {
               <Link
                 onClick={() => window.top(0, 0)}
                 to="/contact"
-                className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 "
+                className="text-black text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#FAFF00] ease-in duration-200 "
               >
                 Join Now
               </Link>

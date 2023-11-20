@@ -9,7 +9,7 @@ function PricingBox({ img, price }) {
           className="relative grayscale hover:grayscale-0"
         >
           <img src={img} alt="pricing_img" className="w-full h-full" />
-          <div className="absolute bg-white text-[20px] font-bold w-[25rem] text-center py-6 text-[#ff0336] -bottom-[18px] left-0 right-0 mx-auto">
+          <div className="absolute bg-white text-[20px] font-bold w-[25rem] text-center py-6 text-[#000000] -bottom-[18px] left-0 right-0 mx-auto">
             Beginners
           </div>
         </div>
@@ -34,10 +34,10 @@ function PricingBox({ img, price }) {
           </div>
 
           <MainButton
-            color={`!text-white`}
-            bg={`bg-[#ff0336]`}
+            color={`!text-black`}
+            bg={`bg-[#FAFF00]`}
             text="purchase now"
-            arrowColor={`!text-white`}
+            arrowColor={`!text-black`}
             cN="pricing-cta"
             goTo="/contact"
           />

@@ -8,7 +8,7 @@ function Trainers() {
         <div className="container page-padding py-[12rem]">
           {/* title div -- */}
           <div className="flex flex-col items-center text-center relative">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-10">
+            <p className="text-black relative z-10 text-[16px] uppercase font-bold mb-10">
               gym trainers
             </p>
             <img
