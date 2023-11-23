@@ -245,7 +245,7 @@ function Navbar() {
                     </p>
                     <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#FAFF00] cursor-pointer ease-in duration-200">
                       <i className="fa-solid fa-envelope text-[#FAFF00]"></i>
-                      &nbsp; gymate@gymail.com
+                      &nbsp; Gym24@gym.com
                     </p>
                   </div>
                   {/* follow us */}

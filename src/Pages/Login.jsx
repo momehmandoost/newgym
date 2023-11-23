@@ -53,7 +53,7 @@ function Login() {
             </label>
             <input
               className="text-[1.7rem] px-8 py-4 mb-10 w-full outline-[#FAFF00] "
-              placeholder="gymate@gymail.com"
+              placeholder="Gym24@gym.com"
               type="email"
               onChange={(e) => setEmail(e.target.value)}
             ></input>

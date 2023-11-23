@@ -90,73 +90,73 @@ function Classes() {
           <ClassesBox
             bgImg="cycling-bg"
             title="Cycling"
-            trainer="Dorian Yate"
+            trainer="Jason Tatum"
             date="Wed: 9:00 am"
           />
           <ClassesBox
             bgImg="meditaion-bg"
             title="Meditation"
-            trainer="Maria Mich"
+            trainer="Mohammad Lashgar boolouki"
             date="Fri: 1:00 pm"
           />
           <ClassesBox
             bgImg="mma-bg"
             title="Boxing"
-            trainer="John Flex"
+            trainer="John Fox"
             date="Tue: 4:00 pm"
           />
           <ClassesBox
             bgImg="karate-bg"
             title="Karate"
-            trainer="David Rich"
+            trainer="David Villa"
             date="Sat: 9:00 am"
           />
           <ClassesBox
             bgImg="powerlift-bg"
             title="Power Lifting"
-            trainer="Larry Wheels"
+            trainer="Harry Winks"
             date="Mon: 8:00 pm"
           />
           <ClassesBox
             bgImg="workout-bg"
             title="Workout"
-            trainer="Shawn Ray"
+            trainer="Shawn Michael"
             date="Sun: 10:00 am"
           />
           <ClassesBox
             bgImg="crossfit-bg"
             title="Crossfit"
-            trainer="Jenifer Alex"
+            trainer="Randy Orton"
             date="Wen: 9:00 pm"
           />
           <ClassesBox
             bgImg="running-bg"
             title="Running"
-            trainer="Zinia Zessy"
+            trainer="Jaber Ansari"
             date="Thu: 12:00 am"
           />
           <ClassesBox
             bgImg="bodybuilding-bg"
             title="Body Building"
-            trainer="Jake Paul"
+            trainer="Memphis Villa"
             date="Mon: 8:00 pm"
           />
           <ClassesBox
             bgImg="box-bg"
             title="Mma"
-            trainer="Becky Lynch"
+            trainer="David Beckham"
             date="Fri: 6:00 am"
           />
           <ClassesBox
             bgImg="yoga-bg"
             title="Yoga"
-            trainer="Marta Mich"
+            trainer="Ibarahim Aali"
             date="Wen: 8:00 am"
           />
           <ClassesBox
             bgImg="fitness-bg"
             title="Fitness"
-            trainer="Mia Malkova"
+            trainer="Alex Sanchez"
             date="Sun: 5:00 pm"
           />
         </div>

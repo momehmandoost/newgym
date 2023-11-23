@@ -7,18 +7,18 @@ export const cardList = [
     img: ProgressionImg,
     title: "Progression",
     description:
-      "Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.",
+      "A spacious gym for sports – a safe distance between exercise machines",
   },
   {
     img: WorkoutImg,
     title: "Workout",
     description:
-      " With a variety of workouts to choose from, you'll have everything you need to get into the best shape of your life.",
+      " From cardio to functional and cycle. Separate area for boxing and mixed martial arts",
   },
   {
     img: NutritionImg,
     title: "Nutritions",
     description:
-      "Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.",
+      "No queues at the simulators. Premium equipment from LifeStyle, Hammer Strength, TechnoGym.",
   },
 ];

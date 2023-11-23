@@ -17,10 +17,10 @@ function Login() {
               We are here for help you! To Shape Your Body.
             </h2>
             <p className="text-[16px] w-[95%] text-[#646464] font-medium my-[40px]">
-              At Gymate, we are dedicated to helping you achieve the body of
-              your dreams. Our expert trainers and nutritionists will work with
-              you to create a personalized fitness and nutrition plan that helps
-              you reach your specific goals.
+              At Gym24, we are dedicated to helping you achieve the body of your
+              dreams. Our expert trainers and nutritionists will work with you
+              to create a personalized fitness and nutrition plan that helps you
+              reach your specific goals.
             </p>
             <div className="grid grid-cols-2 grid-rows-2 gap-y-20 min620:grid-cols-1 min620:mx-auto">
               <div className="flex flex-col relative">
@@ -47,8 +47,8 @@ function Login() {
                 <h3 className="text-[2rem] font-bold mb-10">Information</h3>
                 <span className="bg-[#FAFF00] w-[50px] h-[4px] absolute top-[33px]"></span>
                 <div className="text-[15px] font-medium text-[#646464]">
-                  <p>+800-123-4567</p>
-                  <p>&nbsp; gymat@gymail.com</p>
+                  <p>+98-936-1399-760</p>
+                  <p>&nbsp; Gym24@gym.com</p>
                 </div>
               </div>
               {/*  */}
